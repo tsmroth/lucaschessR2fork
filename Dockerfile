@@ -3,7 +3,7 @@
 # Run With:
 # docker run -it -e "DISPLAY=$DISPLAY" -v "$HOME/.Xauthority:/lucaschess/.Xauthority:ro" -v "$PWD/UserData:/lucaschess/UserData" --network host --rm lucaschess
 
-FROM python:3.9-bullseye
+FROM python:3.9-bookworm
 WORKDIR /lucaschess/
 ENV HOME=/lucaschess/
 
