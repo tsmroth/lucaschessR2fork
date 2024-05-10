@@ -3,3 +3,4 @@ bin/OS/linux/FasterCode.*
 Dockerfile
 .dockerignore
 UserData
+.venv
